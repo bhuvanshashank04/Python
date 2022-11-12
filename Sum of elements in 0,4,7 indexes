@@ -1,0 +1,6 @@
+a=[20, 41, 30, 80, 47, 32, 53, 32, 25, 90]
+s=0
+for i in range(0,len(a)-1):
+    if i==0 or i==4 or i==7:
+        s+=a[i]
+print(s)
