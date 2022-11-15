@@ -1,0 +1,4 @@
+lst=[10,20,30,10,20,30,10,20]
+print(lst.count(10))
+print(lst.count(30))
+print(lst.count(50))
