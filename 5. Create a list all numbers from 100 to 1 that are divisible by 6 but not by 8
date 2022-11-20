@@ -1,0 +1,2 @@
+nums=[i for i in range(100,0,-1) if i%6==0 and i%8!=0]
+print(nums)
