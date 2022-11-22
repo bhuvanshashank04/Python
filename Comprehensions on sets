@@ -1,0 +1,5 @@
+lst=[11,17,45,20,10,15,10,45,48,61,20]
+new_list=[i for i in lst if i%5==0]
+s=set(new_list)
+print(new_list)
+print(s)
